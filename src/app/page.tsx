@@ -9,6 +9,7 @@ import Projets from './Projets'
 import Archive from './Archive'
 import Contact from './Contact'
 import Footer from './Footer'
+import VideoPlayer from './Video'
 import { motion } from 'framer-motion'
 
 
@@ -31,6 +32,8 @@ export default function Home() {
 
         <div className="h-[88vh] w-full mx-auto p-4">
           <Banner />
+          {/* Video Section */}
+          <VideoPlayer/>
           {/* About Section */}
           <About />
           {/* Project Section  */}

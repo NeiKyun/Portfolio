@@ -44,7 +44,7 @@ const Navbar = () => {
     <div className="w-full shadow-navbarShadow h-20 lg:h-[9vh] sticky top-0 z-50 bg-bodyColor px-4" >
       <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
         <motion.div initial={{ opacity:0 }} animate={{ opacity:1 }} transition={{ duration: 0.5}}>
-          <main className="w-14 text-textGreen"> Portfolio </main>
+          <main className="w-14 text-textGreen font-bold text-xl"> Portfolio </main>
         </motion.div>
         <div className="hidden mdl:inline-flex items-center gap-7">
           <ul className="flex text-[13px] gap-7 ">
@@ -108,7 +108,7 @@ const Navbar = () => {
                   </motion.li>
               </Link>           
           </ul>
-          <a href="assets/CVMAHADALINeil.pdf" target="_blank">
+          <a href="CVMAHADALINeil.pdf" target="_blank">
           <motion.button
             initial={{ y: -10, opacity: 0 }} 
             animate={{ y:0, opacity: 1}} 

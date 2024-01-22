@@ -1,9 +1,18 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Inter, Montserrat } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ 
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--inter' 
+})
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--montserrat'
+})
 
 export const metadata: Metadata = {
   title: 'Neil MAHADALI',
@@ -16,15 +25,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="fr" className={`${montserrat.variable}`}>
       <head>
       <link rel="icon" href="/favicon.ico" />
-      <link rel="preconnect" href="https://fonts.googleapis.com"/>
-      <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@500&display=swap" rel="stylesheet"/>
       </head>
       <body className={inter.className}>{children}</body>
         
     </html>
   )
 }
+

@@ -16,14 +16,14 @@ const Banner = () => {
             transition={{ duration: 0.5, delay: 0.7}}
             className="text-4xl lgl:text-6xl font-titleFont font-semibold text-textLight flex flex-col"
         >Neil MAHADALI. <span className="text-textDark mt-2 lgl:mt-4"> 
-        Je m'occupe des réseaux informatiques.
+        Je m&#39;occupe de connecter votre avenir.
         </span></motion.h1>
         <motion.p
             initial={{ y: 10, opacity: 0}}
             animate={{ y: 0, opacity: 1}}
             transition={{ duration: 0.5, delay: 0.8}}
             className="text-base md:max-w-[650px] text-textDark font-medium">
-        {" "} Je suis un étudiant en informatique de 20 ans, passionné par les réseaux informatiques et la cybersécurité. J'ai de grande connaissance sur les infrastructures réseaux, simulation et configuration de réseaux, ainsi que la sécurité informatique.{" "} 
+        {" "} Je suis un étudiant en informatique de 20 ans, passionné par les réseaux informatiques et la cybersécurité. J&#39;ai de grande connaissance sur les infrastructures réseaux, simulation et configuration de réseaux, ainsi que la sécurité informatique.{" "} 
         <a href="https://www.linkedin.com/in/mahadali-neil/" target="_blank">
             <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
                 En Savoir Plus
@@ -33,11 +33,14 @@ const Banner = () => {
             </span>
             </a>
         </motion.p>
+        <a href="#Projet">
         <motion.button 
             initial={{ y: 10, opacity: 0}}
             animate={{ y: 0, opacity: 1}}
             transition={{ duration: 0.5, delay: 0.9}}
-            className="w-52 h-14 text-sm font-titleFont border border-textGreeb rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300">Voir Mes Projets !</motion.button>
+            className="w-52 h-14 text-sm font-titleFont border border-textGreeb rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300" >Voir Mes Projets !
+        </motion.button>
+        </a>
     </section>
   )
 }
