@@ -8,6 +8,7 @@ const Projets = () => {
     <section id="Projet" className="max-w-container mx-auto lgl:px-20 py-24">
         <SectionTitle title="Mes Projets" titleNo="02" />
         <div className="w-full flex flex-col items-center justify-between gap-28 mt-10">
+
           {/* Project 1 */}
           <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
               <div className="flex flex-col xl:flex-row gap-6">
@@ -25,19 +26,17 @@ const Projets = () => {
                     Caractéristique du Projet
                   </p>
                   <h3 className="text-2xl font-bold">
-                    Projet n°1
+                    Projet SAE 1.02 : Initiation au Réseaux Informatique (Première Année)
                     </h3>
                     <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Consequuntur impedit quas inventore! Quaerat aperiam, laudantium ab odit explicabo natus perspiciatis,
-                        beatae pariatur eius fugiat illo tempora aspernatur dolore! Debitis, quam.
+                      Le projet d&apos;Initiation au Réseaux Informatique en première année a proposé une exploration approfondie des éléments essentiels constituant les fondations des réseaux. Les étudiants ont été amenés à acquérir des compétences pratiques tout en comprenant les concepts théoriques sous-jacents.
                         </p>
                         <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-                          <li>Tech 1</li>
-                          <li>Tech 2</li>
-                          <li>Tech 3</li>
-                          <li>Tech 4</li>
-                          <li>Tech 5</li>
+                          <li>Raspberry Pi</li>
+                          <li>Protocol SSH</li>
+                          <li>Nmap</li>
+                          <li>IoT</li>
+                          <li>Protocol MQTT</li>
                         </ul>
                         <div className="text-2xl flex gap-4">
                           <a 
@@ -57,6 +56,7 @@ const Projets = () => {
               </div>
               
           </div>
+
           {/* Project 2 */}
           <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
               <div className="flex flex-col xl:flex-row-reverse gap-6">
@@ -74,19 +74,17 @@ const Projets = () => {
                     Caractéristique du Projet
                   </p>
                   <h3 className="text-2xl font-bold">
-                    Projet n°2
+                    Projet SAE 2.04 : Déploiement et Gestion du Système et Réseau (Première Année)
                     </h3>
                     <p className="bg-[#112240] text-sm md:text-base p-2 xl:-mr-16 md:p-6 rounded-md">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Consequuntur impedit quas inventore! Quaerat aperiam, laudantium ab odit explicabo natus perspiciatis,
-                        beatae pariatur eius fugiat illo tempora aspernatur dolore! Debitis, quam.
+                      Ce projet s&apos;est concentré sur le déploiement et la gestion de systèmes et réseaux, offrant aux étudiants une opportunité d&apos;acquérir des compétences pratiques et une compréhension approfondie des opérations liées à ces domaines.
                         </p>
                         <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-                          <li>Tech 1</li>
-                          <li>Tech 2</li>
-                          <li>Tech 3</li>
-                          <li>Tech 4</li>
-                          <li>Tech 5</li>
+                          <li>Windows Server</li>
+                          <li>GNS3</li>
+                          <li>VLAN</li>
+                          <li>DHCP</li>
+                          <li>Firewall</li>
                         </ul>
                         <div className="text-2xl flex gap-4">
                           <a 
@@ -123,19 +121,17 @@ const Projets = () => {
                     Caractéristique du Projet
                   </p>
                   <h3 className="text-2xl font-bold">
-                    Projet n°3
+                    Projet SAÉ 3 Cyber 3 : Conception d&apos;un Réseau Informatique Sécurisé Multi-sites (Deuxième Année)
                     </h3>
                     <p className="bg-[#112240] text-sm md:text-base p-2 xl:-ml-16 md:p-6 rounded-md">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Consequuntur impedit quas inventore! Quaerat aperiam, laudantium ab odit explicabo natus perspiciatis,
-                        beatae pariatur eius fugiat illo tempora aspernatur dolore! Debitis, quam.
+                      Ce projet a mis l&apos;accent sur la conception d&apos;une infrastructure réseau sécurisée étendue sur plusieurs sites, permettant aux étudiants de développer des compétences avancées en cybersécurité et en architecture réseau.
                         </p>
                         <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-                          <li>Tech 1</li>
-                          <li>Tech 2</li>
-                          <li>Tech 3</li>
-                          <li>Tech 4</li>
-                          <li>Tech 5</li>
+                          <li>OSPF</li>
+                          <li>BGP</li>
+                          <li>PfSENSE</li>
+                          <li>MPLS</li>
+                          <li>Firewall</li>
                         </ul>
                         <div className="text-2xl flex gap-4">
                           <a 
