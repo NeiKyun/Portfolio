@@ -16,21 +16,21 @@ const Archive = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
             <ArchiveCard 
-                title="Projet 4"
-                des="lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolorem dolorum exercitationem modi ab suscipit tempore tempora minus."
-                listItem={["Tech 1", "Tech 2", "Tech 3"]}
+                title="SAÉ 4.CYBER01 - Sécuriser un système d&apos;information"
+                des="Mettre en place une infrastructure réseau sécurisée, comprenant un pare-feu, un cluster de serveurs web, un serveur de noms et un Active Directory."
+                listItem={["AD", "STORMSHIELD", "BIND9"]}
                 link="#"
             />
             <ArchiveCard 
-                title="Projet 5"
-                des="lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolorem dolorum exercitationem modi ab suscipit tempore tempora minus."
-                listItem={["Tech 1", "Tech 2", "Tech 3"]}
+                title="SAE3.CYBER.04 - Découverte du pentesting"
+                des="Initie au pentesting avec des outils comme nmap et nikto. Il fournit des ressources et des guides sur les shells inversés et l'exploitation de vulnérabilités, ainsi que des modèles pour rédiger des rapports."
+                listItem={["Kali", "Serveur Web", "CTF"]}
                 link="#"
             />
             <ArchiveCard 
-                title="Projet 6"
-                des="lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolorem dolorum exercitationem modi ab suscipit tempore tempora minus."
-                listItem={["Tech 1", "Tech 2", "Tech 3"]}
+                title="SAE 2.01 - Construire un réseau informatique pour une petite structure"
+                des="Déploiement d'un réseau d&apos;entreprise, impliquant la mise en place d&apos;une infrastructure réseau avec services et règles de sécurité et la documentation technique."
+                listItem={["GNS3", "DMZ", "EVE-NG"]}
                 link="#"
             />
 
