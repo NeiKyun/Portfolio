@@ -1,8 +1,9 @@
 import React from 'react'
+import Image from 'next/image';
 import SectionTitle from './SectionTitle'
 import { TbBrandGithub } from 'react-icons/tb'
 import { RxOpenInNewWindow } from 'react-icons/rx'
-
+import { raspImg, gns3Img, sae3cyb3Img } from '../../public/assets';
 const Projets = () => {
   return (
     <section id="Projet" className="max-w-container mx-auto lgl:px-20 py-24">
@@ -16,9 +17,9 @@ const Projets = () => {
                   className="w-full xl:w-1/2 h-auto relative group"
                   href="#" target="_blank">
                   <div>
-                    {/*<Image className="w-full h-full object-contain"
-                    src={...}
-                    alt="image"/>*/}
+                    <Image className="w-full h-full object-contain"
+                      src={raspImg}
+                      alt="Description de l'image RaspImg"/>
                   </div>
                 </a>
                 <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
@@ -29,7 +30,7 @@ const Projets = () => {
                     Projet SAE 1.02 : Initiation au Réseaux Informatique (Première Année)
                     </h3>
                     <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                      Le projet d&apos;Initiation au Réseaux Informatique en première année a proposé une exploration approfondie des éléments essentiels constituant les fondations des réseaux. Les étudiants ont été amenés à acquérir des compétences pratiques tout en comprenant les concepts théoriques sous-jacents.
+                      Le projet d&apos;Initiation au Réseaux Informatique en première année a proposé une exploration approfondie des éléments essentiels constituant les fondations des réseaux.  J&apos;ai été amené à acquérir des compétences pratiques tout en comprenant les concepts théoriques sous-jacents.
                         </p>
                         <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                           <li>Raspberry Pi</li>
@@ -54,7 +55,6 @@ const Projets = () => {
                         </div>
                 </div>
               </div>
-              
           </div>
 
           {/* Project 2 */}
@@ -64,9 +64,9 @@ const Projets = () => {
                   className="w-full xl:w-1/2 h-auto relative group"
                   href="#" target="_blank">
                   <div>
-                    {/*<Image className="w-full h-full object-contain"
-                    src={...}
-                    alt="image"/>*/}
+                    <Image className="w-full h-full object-contain"
+                    src={gns3Img}
+                    alt="Description de l'image GNS3"/>
                   </div>
                 </a>
                 <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right z-10">
@@ -77,7 +77,7 @@ const Projets = () => {
                     Projet SAE 2.04 : Déploiement et Gestion du Système et Réseau (Première Année)
                     </h3>
                     <p className="bg-[#112240] text-sm md:text-base p-2 xl:-mr-16 md:p-6 rounded-md">
-                      Ce projet s&apos;est concentré sur le déploiement et la gestion de systèmes et réseaux, offrant aux étudiants une opportunité d&apos;acquérir des compétences pratiques et une compréhension approfondie des opérations liées à ces domaines.
+                    Dans ce projet, je me suis concentré sur le déploiement et la gestion de systèmes et réseaux, offrant à moi-même une opportunité d&apos;acquérir des compétences pratiques et une compréhension approfondie des opérations liées à ces domaines.
                         </p>
                         <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                           <li>Windows Server</li>
@@ -111,9 +111,9 @@ const Projets = () => {
                   className="w-full xl:w-1/2 h-auto relative group"
                   href="#" target="_blank">
                   <div>
-                    {/*<Image className="w-full h-full object-contain"
-                    src={...}
-                    alt="image"/>*/}
+                    <Image className="w-full h-full object-contain"
+                    src={sae3cyb3Img}
+                    alt="image"/>
                   </div>
                 </a>
                 <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right z-10">
@@ -124,7 +124,7 @@ const Projets = () => {
                     Projet SAÉ 3 Cyber 3 : Conception d&apos;un Réseau Informatique Sécurisé Multi-sites (Deuxième Année)
                     </h3>
                     <p className="bg-[#112240] text-sm md:text-base p-2 xl:-ml-16 md:p-6 rounded-md">
-                      Ce projet a mis l&apos;accent sur la conception d&apos;une infrastructure réseau sécurisée étendue sur plusieurs sites, permettant aux étudiants de développer des compétences avancées en cybersécurité et en architecture réseau.
+                      Ce projet a mis l&apos;accent sur la conception d&apos;une infrastructure réseau sécurisée étendue sur plusieurs sites, me permettant de développer des compétences avancées en cybersécurité et en architecture réseau.
                         </p>
                         <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                           <li>OSPF</li>

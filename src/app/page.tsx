@@ -10,6 +10,7 @@ import Archive from './Archive'
 import Contact from './Contact'
 import Footer from './Footer'
 import VideoPlayer from './Video'
+import Competences from './Competences'
 import { motion } from 'framer-motion'
 
 
@@ -40,6 +41,8 @@ export default function Home() {
           <Projets />
           {/* Archive Section */}
           <Archive />
+          {/* Competences Section */}
+          <Competences />
           {/* Contact Section */}
           <Contact />
           {/* Footer Section */}
